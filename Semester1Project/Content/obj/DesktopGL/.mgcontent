@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/jackc/source/repos/Project - Semester1/Semester1Project/Semester1Project/Content/Background.wav</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1/Semester1Project/Semester1Project/Content/BackgroundSong.mp3</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1/Semester1Project/Semester1Project/Content/CanyonBackground.png</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1/Semester1Project/Semester1Project/Content/Coin.wav</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1/Semester1Project/Semester1Project/Content/Death.wav</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1/Semester1Project/Semester1Project/Content/Ending.wav</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1/Semester1Project/Semester1Project/Content/EnemySpriteSheet.png</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1/Semester1Project/Semester1Project/Content/fanfare.wav</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1/Semester1Project/Semester1Project/Content/HeartText.spritefont</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1/Semester1Project/Semester1Project/Content/JumpSound.wav</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1/Semester1Project/Semester1Project/Content/MenuScreen.png</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1/Semester1Project/Semester1Project/Content/MenuScreenText.png</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1/Semester1Project/Semester1Project/Content/Platform.png</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1/Semester1Project/Semester1Project/Content/PlayerSpriteSheet.png</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1/Semester1Project/Semester1Project/Content/UFO.png</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1/Semester1Project/Semester1Project/Content/UFOEnding.png</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1/Semester1Project/Semester1Project/Content/UIText.spritefont</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1/Semester1Project/Semester1Project/Content/Victory.wav</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

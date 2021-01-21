@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/HeartText.spritefont</SourceFile>
+  <SourceTime>2021-01-10T20:00:08.6897652+00:00</SourceTime>
+  <DestFile>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/bin/DesktopGL/Content/HeartText.xnb</DestFile>
+  <DestTime>2021-01-21T10:47:32.2111434+00:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2020-08-10T16:17:54+01:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2020-08-10T16:17:54+01:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
