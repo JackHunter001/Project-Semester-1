@@ -73,6 +73,12 @@
 /processorParam:Quality=Best
 /build:fanfare.wav
 
+#begin GameRestart.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:GameRestart.wav
+
 #begin HeartText.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor

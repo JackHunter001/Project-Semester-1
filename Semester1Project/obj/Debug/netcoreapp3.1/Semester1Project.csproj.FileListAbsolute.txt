@@ -86,3 +86,4 @@ C:\Users\jackc\source\repos\Project - Semester1\Project-Semester-1\Semester1Proj
 C:\Users\jackc\source\repos\Project - Semester1\Project-Semester-1\Semester1Project\obj\Debug\netcoreapp3.1\Semester1Project.dll
 C:\Users\jackc\source\repos\Project - Semester1\Project-Semester-1\Semester1Project\obj\Debug\netcoreapp3.1\Semester1Project.pdb
 C:\Users\jackc\source\repos\Project - Semester1\Project-Semester-1\Semester1Project\obj\Debug\netcoreapp3.1\Semester1Project.genruntimeconfig.cache
+C:\Users\jackc\source\repos\Project - Semester1\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\GameRestart.xnb
