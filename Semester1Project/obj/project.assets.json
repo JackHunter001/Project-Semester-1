@@ -180,11 +180,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jackc\\source\\repos\\Project - Semester1\\Project-Semester-1\\Semester1Project\\Semester1Project.csproj",
+      "projectUniqueName": "C:\\Users\\jackc\\source\\repos\\Project - Semester1 - Backup\\Project-Semester-1\\Semester1Project\\Semester1Project.csproj",
       "projectName": "Semester1Project",
-      "projectPath": "C:\\Users\\jackc\\source\\repos\\Project - Semester1\\Project-Semester-1\\Semester1Project\\Semester1Project.csproj",
+      "projectPath": "C:\\Users\\jackc\\source\\repos\\Project - Semester1 - Backup\\Project-Semester-1\\Semester1Project\\Semester1Project.csproj",
       "packagesPath": "C:\\Users\\jackc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jackc\\source\\repos\\Project - Semester1\\Project-Semester-1\\Semester1Project\\obj\\",
+      "outputPath": "C:\\Users\\jackc\\source\\repos\\Project - Semester1 - Backup\\Project-Semester-1\\Semester1Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -4,25 +4,25 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/Background.wav</File>
-    <File>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/BackgroundSong.mp3</File>
-    <File>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/CanyonBackground.png</File>
-    <File>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/Coin.wav</File>
-    <File>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/Death.wav</File>
-    <File>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/Ending.wav</File>
-    <File>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/EnemySpriteSheet.png</File>
-    <File>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/fanfare.wav</File>
-    <File>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/GameRestart.wav</File>
-    <File>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/HeartText.spritefont</File>
-    <File>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/JumpSound.wav</File>
-    <File>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/MenuScreen.png</File>
-    <File>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/MenuScreenText.png</File>
-    <File>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/Platform.png</File>
-    <File>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/PlayerSpriteSheet.png</File>
-    <File>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/UFO.png</File>
-    <File>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/UFOEnding.png</File>
-    <File>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/UIText.spritefont</File>
-    <File>C:/Users/jackc/source/repos/Project - Semester1/Project-Semester-1/Semester1Project/Content/Victory.wav</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1 - Backup/Project-Semester-1/Semester1Project/Content/Background.wav</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1 - Backup/Project-Semester-1/Semester1Project/Content/BackgroundSong.mp3</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1 - Backup/Project-Semester-1/Semester1Project/Content/CanyonBackground.png</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1 - Backup/Project-Semester-1/Semester1Project/Content/Coin.wav</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1 - Backup/Project-Semester-1/Semester1Project/Content/Death.wav</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1 - Backup/Project-Semester-1/Semester1Project/Content/Ending.wav</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1 - Backup/Project-Semester-1/Semester1Project/Content/EnemySpriteSheet.png</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1 - Backup/Project-Semester-1/Semester1Project/Content/fanfare.wav</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1 - Backup/Project-Semester-1/Semester1Project/Content/GameRestart.wav</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1 - Backup/Project-Semester-1/Semester1Project/Content/HeartText.spritefont</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1 - Backup/Project-Semester-1/Semester1Project/Content/JumpSound.wav</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1 - Backup/Project-Semester-1/Semester1Project/Content/MenuScreen.png</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1 - Backup/Project-Semester-1/Semester1Project/Content/MenuScreenText.png</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1 - Backup/Project-Semester-1/Semester1Project/Content/Platform.png</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1 - Backup/Project-Semester-1/Semester1Project/Content/PlayerSpriteSheet.png</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1 - Backup/Project-Semester-1/Semester1Project/Content/UFO.png</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1 - Backup/Project-Semester-1/Semester1Project/Content/UFOEnding.png</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1 - Backup/Project-Semester-1/Semester1Project/Content/UIText.spritefont</File>
+    <File>C:/Users/jackc/source/repos/Project - Semester1 - Backup/Project-Semester-1/Semester1Project/Content/Victory.wav</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
