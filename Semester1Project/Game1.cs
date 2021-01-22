@@ -300,189 +300,192 @@ namespace Semester1Project
         void CoinsLevels()
         {
             coinSprite.Add(new List<CoinSprite>());  //adding the list of Coins
-            coinSprite[0].Add(new CoinSprite(playerSheetTxr, whiteBox, new Vector2(630, 270)));
+            coinSprite[0].Add(new CoinSprite(playerSheetTxr, whiteBox, new Vector2(630, 270))); //adding the coin on the first level at this position
 
             coinSprite.Add(new List<CoinSprite>());  //adding the list of Coins
-            coinSprite[1].Add(new CoinSprite(playerSheetTxr, whiteBox, new Vector2(255, 160)));
+            coinSprite[1].Add(new CoinSprite(playerSheetTxr, whiteBox, new Vector2(255, 160))); //adding the coin on the second level at this position
 
             coinSprite.Add(new List<CoinSprite>());  //adding the list of Coins
-            coinSprite[2].Add(new CoinSprite(playerSheetTxr, whiteBox, new Vector2(90, 150)));
+            coinSprite[2].Add(new CoinSprite(playerSheetTxr, whiteBox, new Vector2(90, 150))); //adding the coin on the third level at this position
 
             coinSprite.Add(new List<CoinSprite>());  //adding the list of Coins
-            coinSprite[3].Add(new CoinSprite(playerSheetTxr, whiteBox, new Vector2(30, 150)));
+            coinSprite[3].Add(new CoinSprite(playerSheetTxr, whiteBox, new Vector2(30, 150))); //adding the coin on the fourth level at this position
 
             coinSprite.Add(new List<CoinSprite>());  //adding the list of Coins
-            coinSprite[4].Add(new CoinSprite(playerSheetTxr, whiteBox, new Vector2(550, 3)));
+            coinSprite[4].Add(new CoinSprite(playerSheetTxr, whiteBox, new Vector2(550, 3))); //adding the coin on the fifth level at this position
 
             coinSprite.Add(new List<CoinSprite>());  //adding the list of Coins
-            coinSprite[5].Add(new CoinSprite(playerSheetTxr, whiteBox, new Vector2(223, 450)));
+            coinSprite[5].Add(new CoinSprite(playerSheetTxr, whiteBox, new Vector2(223, 450))); //adding the coin on the sixth level at this position
         }
+
         void SpikesLevels()
         {
-            spikesSprite.Add(new List<SpikesSprite>());
-            spikesSprite[0].Add(new SpikesSprite(EnemySheetTxr, whiteBox, new Vector2(400, 342)));
+            spikesSprite.Add(new List<SpikesSprite>()); //adding the list of Sprites
+            spikesSprite[0].Add(new SpikesSprite(EnemySheetTxr, whiteBox, new Vector2(400, 342))); //adding the Sprites on the first level at this position
 
-            spikesSprite.Add(new List<SpikesSprite>());
-            spikesSprite[1].Add(new SpikesSprite(EnemySheetTxr, whiteBox, new Vector2(408, 411)));
+            spikesSprite.Add(new List<SpikesSprite>()); //adding the list of Sprites
+            spikesSprite[1].Add(new SpikesSprite(EnemySheetTxr, whiteBox, new Vector2(408, 411))); //adding the Sprites on the second level at this position
 
-            spikesSprite.Add(new List<SpikesSprite>());
-            spikesSprite[2].Add(new SpikesSprite(EnemySheetTxr, whiteBox, new Vector2(133, 182)));
+            spikesSprite.Add(new List<SpikesSprite>()); //adding the list of Sprites
+            spikesSprite[2].Add(new SpikesSprite(EnemySheetTxr, whiteBox, new Vector2(133, 182))); //adding the Sprites on the third level at this position
 
-            spikesSprite.Add(new List<SpikesSprite>());
-            spikesSprite[3].Add(new SpikesSprite(EnemySheetTxr, whiteBox, new Vector2(171, 172)));
+            spikesSprite.Add(new List<SpikesSprite>()); //adding the list of Sprites
+            spikesSprite[3].Add(new SpikesSprite(EnemySheetTxr, whiteBox, new Vector2(171, 172))); //adding the Sprites on the fourth level at this position
 
-            spikesSprite.Add(new List<SpikesSprite>());
-            spikesSprite[4].Add(new SpikesSprite(EnemySheetTxr, whiteBox, new Vector2(234, 392)));
+            spikesSprite.Add(new List<SpikesSprite>()); //adding the list of Sprites
+            spikesSprite[4].Add(new SpikesSprite(EnemySheetTxr, whiteBox, new Vector2(234, 392))); //adding the Sprites on the fifth level at this position
 
-            spikesSprite.Add(new List<SpikesSprite>());
-            spikesSprite[5].Add(new SpikesSprite(EnemySheetTxr, whiteBox, new Vector2(457, 242)));
+            spikesSprite.Add(new List<SpikesSprite>()); //adding the list of Sprites
+            spikesSprite[5].Add(new SpikesSprite(EnemySheetTxr, whiteBox, new Vector2(457, 242))); //adding the Sprites on the sixth level at this position
         }
+   
         void Spikes2Levels()
         {
-            spikesSprite2.Add(new List<SpikesSprite2>());
-            spikesSprite2[0].Add(new SpikesSprite2(EnemySheetTxr, whiteBox, new Vector2(428, 342)));
+            spikesSprite2.Add(new List<SpikesSprite2>()); //adding the list of secondary Sprites
+            spikesSprite2[0].Add(new SpikesSprite2(EnemySheetTxr, whiteBox, new Vector2(428, 342))); //adding the secondary Sprites on the first level at this position
 
-            spikesSprite2.Add(new List<SpikesSprite2>());
-            spikesSprite2[1].Add(new SpikesSprite2(EnemySheetTxr, whiteBox, new Vector2(194, 262)));
+            spikesSprite2.Add(new List<SpikesSprite2>()); //adding the list of secondary Sprites
+            spikesSprite2[1].Add(new SpikesSprite2(EnemySheetTxr, whiteBox, new Vector2(194, 262))); //adding the secondary Sprites on the second level at this position
 
-            spikesSprite2.Add(new List<SpikesSprite2>());
-            spikesSprite2[2].Add(new SpikesSprite2(EnemySheetTxr, whiteBox, new Vector2(353, 340)));
+            spikesSprite2.Add(new List<SpikesSprite2>()); //adding the list of secondary Sprites
+            spikesSprite2[2].Add(new SpikesSprite2(EnemySheetTxr, whiteBox, new Vector2(353, 340))); //adding the secondary Sprites on the third level at this position
 
-            spikesSprite2.Add(new List<SpikesSprite2>());
-            spikesSprite2[3].Add(new SpikesSprite2(EnemySheetTxr, whiteBox, new Vector2(584, 267)));
+            spikesSprite2.Add(new List<SpikesSprite2>()); //adding the list of secondary Sprites
+            spikesSprite2[3].Add(new SpikesSprite2(EnemySheetTxr, whiteBox, new Vector2(584, 267))); //adding the secondary Sprites on the fourth level at this position
 
-            spikesSprite2.Add(new List<SpikesSprite2>());
-            spikesSprite2[4].Add(new SpikesSprite2(EnemySheetTxr, whiteBox, new Vector2(507, 272)));
+            spikesSprite2.Add(new List<SpikesSprite2>()); //adding the list of secondary Sprites
+            spikesSprite2[4].Add(new SpikesSprite2(EnemySheetTxr, whiteBox, new Vector2(507, 272))); //adding the secondary Sprites on the fifth level at this position
 
-            spikesSprite2.Add(new List<SpikesSprite2>());
-            spikesSprite2[5].Add(new SpikesSprite2(EnemySheetTxr, whiteBox, new Vector2(604, 402)));
+            spikesSprite2.Add(new List<SpikesSprite2>()); //adding the list of secondary Sprites
+            spikesSprite2[5].Add(new SpikesSprite2(EnemySheetTxr, whiteBox, new Vector2(604, 402))); //adding the secondary Sprites on the sixth level at this position
         }
         void BrainBotsLevels()
         {
-            brainSprite.Add(new List<BrainEnemySprite>());
-            brainSprite[0].Add(new BrainEnemySprite(EnemySheetTxr, whiteBox, new Vector2(300, 280)));
+            brainSprite.Add(new List<BrainEnemySprite>()); //adding the list of BrainBots
+            brainSprite[0].Add(new BrainEnemySprite(EnemySheetTxr, whiteBox, new Vector2(300, 280))); //adding the BrainBots on the first level at this position
 
-            brainSprite.Add(new List<BrainEnemySprite>());
-            brainSprite[1].Add(new BrainEnemySprite(EnemySheetTxr, whiteBox, new Vector2(340, 220)));
+            brainSprite.Add(new List<BrainEnemySprite>()); //adding the list of BrainBots
+            brainSprite[1].Add(new BrainEnemySprite(EnemySheetTxr, whiteBox, new Vector2(340, 220))); //adding the BrainBots on the second level at this position
 
-            brainSprite.Add(new List<BrainEnemySprite>());
-            brainSprite[2].Add(new BrainEnemySprite(EnemySheetTxr, whiteBox, new Vector2(180, 250)));
+            brainSprite.Add(new List<BrainEnemySprite>()); //adding the list of BrainBots
+            brainSprite[2].Add(new BrainEnemySprite(EnemySheetTxr, whiteBox, new Vector2(180, 250))); //adding the BrainBots on the third level at this position
 
-            brainSprite.Add(new List<BrainEnemySprite>());
-            brainSprite[3].Add(new BrainEnemySprite(EnemySheetTxr, whiteBox, new Vector2(180, 250)));
+            brainSprite.Add(new List<BrainEnemySprite>()); //adding the list of BrainBots
+            brainSprite[3].Add(new BrainEnemySprite(EnemySheetTxr, whiteBox, new Vector2(180, 250))); //adding the BrainBots on the fourth level at this position
 
-            brainSprite.Add(new List<BrainEnemySprite>());
-            brainSprite[4].Add(new BrainEnemySprite(EnemySheetTxr, whiteBox, new Vector2(640, 30)));
+            brainSprite.Add(new List<BrainEnemySprite>()); //adding the list of BrainBots
+            brainSprite[4].Add(new BrainEnemySprite(EnemySheetTxr, whiteBox, new Vector2(640, 30))); //adding the BrainBots on the fifth level at this position
 
-            brainSprite.Add(new List<BrainEnemySprite>());
-            brainSprite[5].Add(new BrainEnemySprite(EnemySheetTxr, whiteBox, new Vector2(310, 260)));
+            brainSprite.Add(new List<BrainEnemySprite>()); //adding the list of BrainBots
+            brainSprite[5].Add(new BrainEnemySprite(EnemySheetTxr, whiteBox, new Vector2(310, 260))); //adding the BrainBots on the sixth level at this position
         }
         void BrainBots2Levels()
         {
-            brainSprite2.Add(new List<BrainEnemySprite2>());
-            brainSprite2[0].Add(new BrainEnemySprite2(EnemySheetTxr, whiteBox, new Vector2(530, 280)));
+            brainSprite2.Add(new List<BrainEnemySprite2>()); //adding the list of secondary BrainBots
+            brainSprite2[0].Add(new BrainEnemySprite2(EnemySheetTxr, whiteBox, new Vector2(530, 280))); //adding the secondary BrainBots on the first level at this position
 
-            brainSprite2.Add(new List<BrainEnemySprite2>());
-            brainSprite2[1].Add(new BrainEnemySprite2(EnemySheetTxr, whiteBox, new Vector2(630, 340)));
+            brainSprite2.Add(new List<BrainEnemySprite2>()); //adding the list of secondary BrainBots
+            brainSprite2[1].Add(new BrainEnemySprite2(EnemySheetTxr, whiteBox, new Vector2(630, 340))); //adding the secondary BrainBots on the second level at this position
 
-            brainSprite2.Add(new List<BrainEnemySprite2>());
-            brainSprite2[2].Add(new BrainEnemySprite2(EnemySheetTxr, whiteBox, new Vector2(600, 350)));
+            brainSprite2.Add(new List<BrainEnemySprite2>()); //adding the list of secondary BrainBots
+            brainSprite2[2].Add(new BrainEnemySprite2(EnemySheetTxr, whiteBox, new Vector2(600, 350))); //adding the secondary BrainBots on the third level at this position
 
-            brainSprite2.Add(new List<BrainEnemySprite2>());
-            brainSprite2[3].Add(new BrainEnemySprite2(EnemySheetTxr, whiteBox, new Vector2(445, 270)));
+            brainSprite2.Add(new List<BrainEnemySprite2>()); //adding the list of secondary BrainBots
+            brainSprite2[3].Add(new BrainEnemySprite2(EnemySheetTxr, whiteBox, new Vector2(445, 270))); //adding the secondary BrainBots on the fourth level at this position
 
-            brainSprite2.Add(new List<BrainEnemySprite2>());
-            brainSprite2[4].Add(new BrainEnemySprite2(EnemySheetTxr, whiteBox, new Vector2(20, 130)));
+            brainSprite2.Add(new List<BrainEnemySprite2>()); //adding the list of secondary BrainBots
+            brainSprite2[4].Add(new BrainEnemySprite2(EnemySheetTxr, whiteBox, new Vector2(20, 130))); //adding the secondary BrainBots on the fifth level at this position
 
-            brainSprite2.Add(new List<BrainEnemySprite2>());
-            brainSprite2[5].Add(new BrainEnemySprite2(EnemySheetTxr, whiteBox, new Vector2(320, 460)));
+            brainSprite2.Add(new List<BrainEnemySprite2>()); //adding the list of secondary BrainBots
+            brainSprite2[5].Add(new BrainEnemySprite2(EnemySheetTxr, whiteBox, new Vector2(320, 460))); //adding the secondary BrainBots on the sixth level at this position
         }
         void UFOLevels()
         {
-            ufoSprite.Add(new List<UFOSprite>());
-            ufoSprite[0].Add(new UFOSprite(UFOCollectTxr, whiteBox, new Vector2(725, 320)));
+            ufoSprite.Add(new List<UFOSprite>()); //adding the list of UFOs
+            ufoSprite[0].Add(new UFOSprite(UFOCollectTxr, whiteBox, new Vector2(725, 320))); //adding the UFO on the first level at this position
 
-            ufoSprite.Add(new List<UFOSprite>());
-            ufoSprite[1].Add(new UFOSprite(UFOCollectTxr, whiteBox, new Vector2(725, 320)));
+            ufoSprite.Add(new List<UFOSprite>()); //adding the list of platforms
+            ufoSprite[1].Add(new UFOSprite(UFOCollectTxr, whiteBox, new Vector2(725, 320))); //adding the UFOs on the second level at this position
 
-            ufoSprite.Add(new List<UFOSprite>());
-            ufoSprite[2].Add(new UFOSprite(UFOCollectTxr, whiteBox, new Vector2(725, 320)));
+            ufoSprite.Add(new List<UFOSprite>()); //adding the list of platforms
+            ufoSprite[2].Add(new UFOSprite(UFOCollectTxr, whiteBox, new Vector2(725, 320))); //adding the UFOs on the third level at this position
 
-            ufoSprite.Add(new List<UFOSprite>());
-            ufoSprite[3].Add(new UFOSprite(UFOCollectTxr, whiteBox, new Vector2(725, 320)));
+            ufoSprite.Add(new List<UFOSprite>()); //adding the list of platforms
+            ufoSprite[3].Add(new UFOSprite(UFOCollectTxr, whiteBox, new Vector2(725, 320))); //adding the UFOs on the fourth level at this position
 
-            ufoSprite.Add(new List<UFOSprite>());
-            ufoSprite[4].Add(new UFOSprite(UFOCollectTxr, whiteBox, new Vector2(725, 320)));
+            ufoSprite.Add(new List<UFOSprite>()); //adding the list of platforms
+            ufoSprite[4].Add(new UFOSprite(UFOCollectTxr, whiteBox, new Vector2(725, 320))); //adding the UFOs on the fifth level at this position
 
-            ufoSprite.Add(new List<UFOSprite>());
-            ufoSprite[5].Add(new UFOSprite(UFOCollectTxr, whiteBox, new Vector2(725, 320)));
+            ufoSprite.Add(new List<UFOSprite>()); //adding the list of platforms
+            ufoSprite[5].Add(new UFOSprite(UFOCollectTxr, whiteBox, new Vector2(725, 320))); //adding the UFOs on the sixth level at this position
         }
 
         void BuildLevels()
-        {
-            levels.Add(new List<PlatformSprite>()); //adding the list of platforms
-            levels[0].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(26, 350)));
-            levels[0].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(122, 350)));
-            levels[0].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(218, 350)));
-            levels[0].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(314, 350)));
-            levels[0].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(410, 350)));
-            levels[0].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(506, 350)));
-            levels[0].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(602, 350)));
-            levels[0].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(698, 350)));
-            levels[0].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(794, 350))); //adding platforms to the first level (level 0)
+            {
+                levels.Add(new List<PlatformSprite>()); //adding the list of platforms
+                levels[0].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(26, 350)));
+                levels[0].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(122, 350)));
+                levels[0].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(218, 350)));
+                levels[0].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(314, 350)));
+                levels[0].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(410, 350)));
+                levels[0].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(506, 350)));
+                levels[0].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(602, 350)));
+                levels[0].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(698, 350)));
+                levels[0].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(794, 350))); //adding platforms to the first level (level 0)
 
-            levels.Add(new List<PlatformSprite>());  //adding the list of platforms
-            levels[1].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(26, 350)));
-            levels[1].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(160, 270)));
-            levels[1].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(255, 180)));
-            levels[1].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(190, 420)));
-            levels[1].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(375, 420)));
-            levels[1].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(520, 350)));
-            levels[1].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(730, 350))); //adding platforms to the second level (level 1)
+                levels.Add(new List<PlatformSprite>());  //adding the list of platforms
+                levels[1].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(26, 350)));
+                levels[1].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(160, 270)));
+                levels[1].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(255, 180)));
+                levels[1].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(190, 420)));
+                levels[1].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(375, 420)));
+                levels[1].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(520, 350)));
+                levels[1].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(730, 350))); //adding platforms to the second level (level 1)
 
-            levels.Add(new List<PlatformSprite>());  //adding the list of platforms
-            levels[2].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(26, 350)));
-            levels[2].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(-45, 260)));
-            levels[2].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(100, 190)));
-            levels[2].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(170, 400)));
-            levels[2].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(320, 350)));
-            levels[2].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(480, 320)));
-            levels[2].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(730, 350))); //adding platforms to the third level (level 2)
+                levels.Add(new List<PlatformSprite>());  //adding the list of platforms
+                levels[2].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(26, 350)));
+                levels[2].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(-45, 260)));
+                levels[2].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(100, 190)));
+                levels[2].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(170, 400)));
+                levels[2].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(320, 350)));
+                levels[2].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(480, 320)));
+                levels[2].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(730, 350))); //adding platforms to the third level (level 2)
 
-            levels.Add(new List<PlatformSprite>());  //adding the list of platforms
-            levels[3].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(26, 350)));
-            levels[3].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(205, 350)));
-            levels[3].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(335, 275)));
-            levels[3].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(205, 180)));
-            levels[3].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(26, 180)));
-            levels[3].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(550, 275)));
-            levels[3].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(730, 350))); //adding platforms to the fourth level (level 3)
+                levels.Add(new List<PlatformSprite>());  //adding the list of platforms
+                levels[3].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(26, 350)));
+                levels[3].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(205, 350)));
+                levels[3].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(335, 275)));
+                levels[3].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(205, 180)));
+                levels[3].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(26, 180)));
+                levels[3].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(550, 275)));
+                levels[3].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(730, 350))); //adding platforms to the fourth level (level 3)
 
-            levels.Add(new List<PlatformSprite>());  //adding the list of platforms
-            levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(26, 350)));
-            levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(200, 400)));
-            levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(390, 400)));
-            levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(570, 440)));
-            levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(780, 350)));
-            levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(684, 370)));
-            levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(540, 280)));
-            levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(380, 255)));
-            levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(210, 220)));
-            levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(45, 190)));
-            levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(215, 110)));
-            levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(380, 70)));
-            levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(550, 30))); //adding platforms to the fifth level (level 4)
+                levels.Add(new List<PlatformSprite>());  //adding the list of platforms
+                levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(26, 350)));
+                levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(200, 400)));
+                levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(390, 400)));
+                levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(570, 440)));
+                levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(780, 350)));
+                levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(684, 370)));
+                levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(540, 280)));
+                levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(380, 255)));
+                levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(210, 220)));
+                levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(45, 190)));
+                levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(215, 110)));
+                levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(380, 70)));
+                levels[4].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(550, 30))); //adding platforms to the fifth level (level 4)
 
-            levels.Add(new List<PlatformSprite>());  //adding the list of platforms
-            levels[5].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(26, 350)));
-            levels[5].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(218, 300)));
-            levels[5].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(410, 250)));
-            levels[5].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(506, 250)));
-            levels[5].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(218, 478)));
-            levels[5].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(410, 478)));
-            levels[5].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(570, 410)));
-            levels[5].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(698, 350)));
-            levels[5].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(794, 350))); //adding platforms to the sixth level (level 5)
+                levels.Add(new List<PlatformSprite>());  //adding the list of platforms
+                levels[5].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(26, 350)));
+                levels[5].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(218, 300)));
+                levels[5].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(410, 250)));
+                levels[5].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(506, 250)));
+                levels[5].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(218, 478)));
+                levels[5].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(410, 478)));
+                levels[5].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(570, 410)));
+                levels[5].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(698, 350)));
+                levels[5].Add(new PlatformSprite(Lvl1PlatformTxr, whiteBox, new Vector2(794, 350))); //adding platforms to the sixth level (level 5)
+
         }
     }
 }
