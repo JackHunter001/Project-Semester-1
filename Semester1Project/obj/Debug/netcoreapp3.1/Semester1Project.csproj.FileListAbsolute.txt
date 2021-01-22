@@ -89,24 +89,18 @@ C:\Users\jackc\source\repos\Project - Semester1\Project-Semester-1\Semester1Proj
 C:\Users\jackc\source\repos\Project - Semester1\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\GameRestart.xnb
 C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\Level1Platfrom.xnb
 C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\Level1Start.xnb
-C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\Background.xnb
 C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\BackgroundSong.ogg
 C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\BackgroundSong.xnb
 C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\CanyonBackground.xnb
 C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\Coin.xnb
 C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\Death.xnb
-C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\Ending.xnb
 C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\EnemySpriteSheet.xnb
-C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\fanfare.xnb
-C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\GameRestart.xnb
 C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\HeartText.xnb
 C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\JumpSound.xnb
 C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\MenuScreen.xnb
-C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\MenuScreenText.xnb
 C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\Platform.xnb
 C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\PlayerSpriteSheet.xnb
 C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\UFO.xnb
-C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\UFOEnding.xnb
 C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\UIText.xnb
 C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Content\Victory.xnb
 C:\Users\jackc\source\repos\Project - Semester1 - Backup\Project-Semester-1\Semester1Project\bin\Debug\netcoreapp3.1\Semester1Project.exe

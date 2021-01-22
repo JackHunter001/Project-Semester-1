@@ -13,12 +13,6 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin Background.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:Background.wav
-
 #begin BackgroundSong.mp3
 /importer:Mp3Importer
 /processor:SongProcessor
@@ -49,12 +43,6 @@
 /processorParam:Quality=Best
 /build:Death.wav
 
-#begin Ending.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:Ending.wav
-
 #begin EnemySpriteSheet.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -66,18 +54,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:EnemySpriteSheet.png
-
-#begin fanfare.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:fanfare.wav
-
-#begin GameRestart.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:GameRestart.wav
 
 #begin HeartText.spritefont
 /importer:FontDescriptionImporter
@@ -103,18 +79,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:MenuScreen.png
-
-#begin MenuScreenText.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:MenuScreenText.png
 
 #begin Platform.png
 /importer:TextureImporter
@@ -151,18 +115,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:UFO.png
-
-#begin UFOEnding.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:UFOEnding.png
 
 #begin UIText.spritefont
 /importer:FontDescriptionImporter

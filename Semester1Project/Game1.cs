@@ -17,7 +17,7 @@ namespace Semester1Project
 
         Texture2D whiteBox, menuScreenTxr, playerSheetTxr, EnemySheetTxr, Lvl1PlatformTxr, UFOCollectTxr, backGroundTxr; //setting the texture variables
         SpriteFont uiTextFont, heartFont; //setting the font variables
-        SoundEffect jumpSound, fanfareSound, victorySound, deathSound, coinSound, completionSound, restartSound; //setting the sound variables
+        SoundEffect jumpSound, victorySound, deathSound, coinSound; //setting the sound variables
         Song backgroundSong; //setting the song variables
         
         Point screenSize = new Point(800, 480); //setting the game window size
@@ -60,13 +60,10 @@ namespace Semester1Project
             UFOCollectTxr = Content.Load<Texture2D>("UFO"); //loading in the ufo image
             uiTextFont = Content.Load<SpriteFont>("UIText"); //loading in the UItext font
             heartFont = Content.Load<SpriteFont>("HeartText"); //loading in the hearttext font
-            fanfareSound = Content.Load<SoundEffect>("fanfare"); //loading in the fanfare sound
             jumpSound = Content.Load<SoundEffect>("JumpSound"); //loading in the jump sound
             deathSound = Content.Load<SoundEffect>("Death"); //loading in the death sound
             victorySound = Content.Load<SoundEffect>("Victory"); //loading in the victory sound
             coinSound = Content.Load<SoundEffect>("Coin"); //loading in the coin sound
-            completionSound = Content.Load<SoundEffect>("Ending"); //loading in the completion sound
-            restartSound = Content.Load <SoundEffect>("GameRestart"); //loading in the restart sound
 
             this.backgroundSong = Content.Load<Song>("BackgroundSong"); //loading in the background song
             MediaPlayer.Play(backgroundSong); //telling the song to play
@@ -121,8 +118,7 @@ namespace Semester1Project
                 playerSprite.ResetPlayer(new Vector2(50, 290)); //player resets at starting position
                 playerSprite.coinsCollected--; //coinscollected decreases by 1
                 foreach (CoinSprite coinSprite in coinSprite[levelNumber]) coinSprite.dead = false; //coinsprite is not dead
-                if (playerSprite.lives <= 0) restartSound.Play(); //if lives are 0 or under then restartsound plays
-                else if (playerSprite.lives > 0) deathSound.Play(); //if lives are over 0 thne deathsound plays
+                deathSound.Play(); //deathsound plays
             }
 
             foreach (UFOSprite ufoSprite in ufoSprite[levelNumber])
@@ -137,7 +133,6 @@ namespace Semester1Project
                     {
                         victorySound.Play();
                     } //if levelnumber is under or equal to 4 then victorysound plays
-                    else if (levelNumber > 5) completionSound.Play(); //if levelnumber equals to 5 then completionsound plays
                     foreach (CoinSprite coinSprite in coinSprite[levelNumber]) coinSprite.dead = false; //coinsprite is not dead
                 }
             }
@@ -163,7 +158,6 @@ namespace Semester1Project
                     playerSprite.lives--; //player lives decrease by 1
                     foreach (CoinSprite coinSprite in coinSprite[levelNumber]) coinSprite.dead = false; //coin is not dead
                     playerSprite.coinsCollected--; //coinscollected decreases by 1
-                                                   //spikesSprite.spritePos = spikes[levelNumber];
                     if (playerSprite.lives <= 0)
                     {
                         playerSprite.lives = 3;
@@ -176,8 +170,7 @@ namespace Semester1Project
                         playerSprite.coinsCollected = 0;
                     }
                     playerSprite.ResetPlayer(new Vector2(50, 290)); //resets the player at those coordinates
-                    if (playerSprite.lives <= 0) restartSound.Play();
-                    else if (playerSprite.lives > 0) deathSound.Play();
+                    deathSound.Play();
                 }
             }
 
@@ -200,8 +193,7 @@ namespace Semester1Project
                         playerSprite.coinsCollected = 0;
                     }
                     playerSprite.ResetPlayer(new Vector2(50, 290));
-                    if (playerSprite.lives <= 0) restartSound.Play();
-                    else if (playerSprite.lives > 0) deathSound.Play();
+                    deathSound.Play();
                 }
             }
 
@@ -224,8 +216,7 @@ namespace Semester1Project
                         playerSprite.coinsCollected = 0;
                     }
                     playerSprite.ResetPlayer(new Vector2(50, 290));
-                    if (playerSprite.lives <= 0) restartSound.Play();
-                    else if (playerSprite.lives > 0) deathSound.Play();
+                    deathSound.Play();
                 }
             }
 
@@ -248,8 +239,7 @@ namespace Semester1Project
                         playerSprite.coinsCollected = 0;
                     }
                     playerSprite.ResetPlayer(new Vector2(50, 250));
-                    if (playerSprite.lives <= 0) restartSound.Play();
-                    else if (playerSprite.lives > 0) deathSound.Play();
+                    deathSound.Play();
                 }
             } 
 
